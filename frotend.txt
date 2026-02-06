@@ -1,0 +1,2540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bright Club Solar Energy - Leading Solar EPC Contractor in Maharashtra | Rooftop Solar Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bright Club Solar Energy - Leading Solar EPC Contractor in Maharashtra. Premium rooftop solar solutions with WAAREE inverters, BIS-approved panels, and complete installation services." />
+  <meta name="keywords" content="solar energy, rooftop solar, solar installation, solar panels, inverters, maharashtra, solapur, solar epc, solar contractor, renewable energy, clean energy, solar system" />
+  <meta name="author" content="Bright Club Solar Energy" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://brightclubsolarenergy.com/" />
+  <meta property="og:title" content="Bright Club Solar Energy - Leading Solar EPC Contractor in Maharashtra" />
+  <meta property="og:description" content="Premium rooftop solar solutions with WAAREE inverters, BIS-approved panels, and complete installation services in Maharashtra." />
+  <meta property="og:image" content="https://brightclubsolarenergy.com/images/project-hero.jpg" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://brightclubsolarenergy.com/" />
+  <meta property="twitter:title" content="Bright Club Solar Energy - Leading Solar EPC Contractor in Maharashtra" />
+  <meta property="twitter:description" content="Premium rooftop solar solutions with WAAREE inverters, BIS-approved panels, and complete installation services in Maharashtra." />
+  <meta property="twitter:image" content="https://brightclubsolarenergy.com/images/project-hero.jpg" />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://brightclubsolarenergy.com/" />
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"></noscript>
+  
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Critical CSS -->
+  <style>
+    :root {
+      --primary: #005f9e;   /* main blue */
+      --accent:  #f7941d;   /* orange */
+      --secondary: #69be28; /* green */
+      --dark: #123044;      /* dark headings */
+      --light: #ffffff;     /* light background */
+      --text: #243447;      /* text color */
+      --card-bg: #ffffff;   /* card background */
+      --shadow: rgba(15, 35, 52, 0.08);
+    }
+
+    .dark-mode {
+      --primary: #4d9de0;
+      --accent: #ffaa33;
+      --secondary: #8bc34a;
+      --dark: #e0e0e0;
+      --light: #121212;
+      --text: #e0e0e0;
+      --card-bg: #1e1e1e;
+      --shadow: rgba(0, 0, 0, 0.3);
+      background-color: var(--light);
+      color: var(--text);
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px; /* anchor offset for fixed navbar */
+    }
+
+    body {
+      font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      background-color: #f3f6fb;
+      color: var(--text);
+      transition: background-color 0.3s ease, color 0.3s ease;
+      margin: 0;
+      padding: 0;
+    }
+
+    body.dark-mode {
+      background-color: var(--light);
+    }
+
+    /* NAVBAR -------------------------------------------------- */
+
+    .navbar-brand img {
+      height: 50px;
+    }
+
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.95); /* semi‑transparent white */
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(15, 35, 52, 0.06);
+      box-shadow: 0 10px 30px var(--shadow);
+      transition: all 0.3s ease;
+    }
+
+    .dark-mode .navbar {
+      background-color: rgba(30, 30, 30, 0.95);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-light .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0,0,0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    /* NAV LINKS – bilingual, pill background, underline animation */
+
+    .navbar-nav .nav-link {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0.25rem 0.9rem;
+      margin-inline: 0.15rem;
+      border-radius: 999px;
+      color: #30445c;
+      font-weight: 500;
+      text-align: center;
+      transition: color 0.15s ease, background-color 0.15s ease,
+        transform 0.12s ease, box-shadow 0.15s ease;
+    }
+
+    .navbar-nav .nav-link .nav-en {
+      font-size: 0.8rem;
+      line-height: 1.1;
+    }
+
+    .navbar-nav .nav-link .nav-mr {
+      font-size: 0.7rem;
+      line-height: 1.1;
+      opacity: 0.9;
+    }
+
+    /* underline */
+    .navbar-nav .nav-link::after {
+      content: "";
+      position: absolute;
+      bottom: 0.1rem;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+      border-radius: 999px;
+      transition: width 0.16s ease, left 0.16s ease, height 0.16s ease;
+    }
+
+    /* hover/focus state */
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus {
+      background-color: rgba(0, 95, 158, 0.06);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+
+    .navbar-nav .nav-link:hover::after,
+    .navbar-nav .nav-link:focus::after {
+      left: 12%;
+      width: 76%;
+    }
+
+    /* ACTIVE STATE (current section) */
+    .navbar-nav .nav-link.active {
+      background-color: rgba(0, 95, 158, 0.16);
+      color: var(--primary);
+      box-shadow: 0 4px 12px rgba(0, 95, 158, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .navbar-nav .nav-link.active::after {
+      left: 10%;
+      width: 80%;
+      height: 3px;
+    }
+
+    /* CLICK PULSE ANIMATION */
+    @keyframes navPulse {
+      0% {
+        transform: translateY(-1px) scale(1);
+      }
+      50% {
+        transform: translateY(-1px) scale(1.05);
+      }
+      100% {
+        transform: translateY(-1px) scale(1);
+      }
+    }
+
+    .navbar-nav .nav-link.nav-pulse {
+      animation: navPulse 0.18s ease-out;
+    }
+
+    /* slightly tighter look on mobile */
+    @media (max-width: 991.98px) {
+      .navbar-nav .nav-link {
+        align-items: flex-start;
+        border-radius: 0.5rem;
+        margin-block: 0.1rem;
+      }
+
+      .navbar-nav .nav-link::after {
+        left: 0;
+      }
+
+      .navbar-nav .nav-link:hover::after,
+      .navbar-nav .nav-link:focus::after {
+        left: 0;
+        width: 50%;
+      }
+    }
+
+    /* HERO ---------------------------------------------------- */
+
+    header.hero {
+      padding-top: 6.5rem;
+      padding-bottom: 4.5rem;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: radial-gradient(
+        circle at top left,
+        #fff7ec 0,
+        #e7f3ff 40%,
+        #ffffff 100%
+      );
+      position: relative;
+      overflow: hidden;
+    }
+
+    header.hero::before {
+      content: "";
+      position: absolute;
+      top: -140px;
+      right: -80px;
+      width: 360px;
+      height: 360px;
+      background: radial-gradient(
+        circle,
+        rgba(247, 148, 29, 0.35),
+        transparent 65%
+      );
+      opacity: 0.8;
+      animation: floatSun 10s ease-in-out infinite alternate;
+      transition: all 0.3s ease;
+    }
+
+    .dark-mode header.hero::before {
+      background: radial-gradient(
+        circle,
+        rgba(255, 170, 51, 0.4),
+        transparent 65%
+      );
+    }
+
+    header.hero::after {
+      content: "";
+      position: absolute;
+      bottom: -160px;
+      left: -120px;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(
+        circle,
+        rgba(0, 95, 158, 0.2),
+        transparent 70%
+      );
+      animation: floatGlow 12s ease-in-out infinite alternate;
+    }
+
+    header.hero .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    header.hero h1 {
+      font-weight: 700;
+      font-size: clamp(2.1rem, 3vw + 1rem, 2.8rem);
+      line-height: 1.2;
+      color: var(--dark);
+    }
+
+    header.hero h5 {
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .tagline {
+      color: #526377;
+      font-size: 1.02rem;
+    }
+
+    .hero-image {
+      border-radius: 1.2rem;
+      box-shadow: 0 24px 45px rgba(15, 35, 52, 0.22);
+      width: 100%;
+      object-fit: cover;
+    }
+
+    /* BUTTONS ------------------------------------------------- */
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--primary));
+      border: none;
+      box-shadow: 0 10px 20px rgba(0, 95, 158, 0.35);
+      font-weight: 600;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s;
+    }
+
+    .btn-primary:hover::before {
+      left: 100%;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 30px rgba(0, 95, 158, 0.4);
+    }
+
+    .btn-outline-secondary {
+      border-color: rgba(15, 35, 52, 0.18);
+      color: #30445c;
+      font-weight: 500;
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: #f1f5ff;
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* SECTIONS & HEADINGS ------------------------------------ */
+
+    section {
+      padding: 4.5rem 0;
+    }
+
+    section:nth-of-type(even) {
+      background: #f6f9ff;
+    }
+
+    .dark-mode section:nth-of-type(even) {
+      background: #1e1e1e;
+    }
+
+    .section-title {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: var(--primary);
+    }
+
+    .section-heading {
+      font-weight: 700;
+      color: var(--dark);
+    }
+
+    .icon-badge {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(
+        135deg,
+        rgba(247, 148, 29, 0.18),
+        rgba(105, 190, 40, 0.18)
+      );
+      color: var(--accent);
+      font-size: 1.4rem;
+      margin-right: 0.75rem;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .product-image {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 0.75rem;
+    }
+
+    /* CARDS & HOVERS ----------------------------------------- */
+
+    .project-card img {
+      object-fit: cover;
+      width: 100%;
+      height: 220px;
+      border-radius: 0.75rem 0.75rem 0 0;
+    }
+
+    .project-card .card-body {
+      border-top: 3px solid var(--secondary);
+    }
+
+    .badge-location {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      position: absolute;
+      bottom: 0.75rem;
+      left: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .pricing-card,
+    .project-card,
+    .contact-card,
+    .testimonial-card {
+      border-radius: 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: 0 10px 25px var(--shadow);
+      background-color: var(--card-bg);
+      transition: transform 0.25s ease, box-shadow 0.25s ease,
+        border-color 0.25s ease, background-color 0.3s ease;
+    }
+
+    .dark-mode .pricing-card,
+    .dark-mode .project-card,
+    .dark-mode .contact-card,
+    .dark-mode .testimonial-card {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .pricing-card:hover,
+    .project-card:hover,
+    .contact-card:hover,
+    .testimonial-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 35px rgba(15, 35, 52, 0.18);
+      border-color: rgba(0, 95, 158, 0.18);
+    }
+
+    .pricing-card .price {
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .list-check {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .list-check li::before {
+      content: "✔";
+      color: var(--secondary);
+      margin-right: 0.4rem;
+      font-weight: bold;
+    }
+
+    .list-check li {
+      margin-bottom: 0.25rem;
+    }
+
+    /* CUSTOMER SITES CAROUSEL -------------------------------- */
+
+    #customerSitesCarousel {
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 18px 35px rgba(15, 35, 52, 0.18);
+    }
+
+    /* fade effect */
+    #customerSitesCarousel.carousel-fade .carousel-item {
+      transition: opacity 0.8s ease-in-out;
+    }
+
+    .customer-site-img {
+      width: 100%;
+      height: clamp(260px, 50vh, 420px);
+      object-fit: cover;
+      transition: transform 5s ease;
+    }
+
+    /* slow zoom on active slide */
+    #customerSitesCarousel .carousel-item.active .customer-site-img {
+      transform: scale(1.05);
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 8%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 50%;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .customer-slide-caption {
+      position: absolute;
+      left: 1rem;
+      bottom: 1.1rem;
+      padding: 0.35rem 0.8rem;
+      background: rgba(0, 0, 0, 0.55);
+      color: #fff;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      letter-spacing: 0.02em;
+    }
+
+    /* REVEAL ANIMATIONS -------------------------------------- */
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .reveal.from-left {
+      transform: translateX(-40px);
+    }
+
+    .reveal.from-right {
+      transform: translateX(40px);
+    }
+
+    .reveal.from-bottom {
+      transform: translateY(40px);
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+
+    .delay-1 { transition-delay: 0.1s; }
+    .delay-2 { transition-delay: 0.2s; }
+    .delay-3 { transition-delay: 0.3s; }
+
+    /* HERO BG ANIMATIONS ------------------------------------- */
+
+    @keyframes floatSun {
+      from { transform: translate(0, 0); }
+      to   { transform: translate(-20px, 30px); }
+    }
+
+    @keyframes floatGlow {
+      from { transform: translate(0, 0); }
+      to   { transform: translate(25px, -20px); }
+    }
+
+    @keyframes pulseGlow {
+      0% { box-shadow: 0 0 0 0 rgba(247, 148, 29, 0.7); }
+      70% { box-shadow: 0 0 0 15px rgba(247, 148, 29, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(247, 148, 29, 0); }
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+
+    .floating-element {
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .glow-pulse {
+      animation: pulseGlow 2s infinite;
+    }
+
+    /* FOOTER -------------------------------------------------- */
+
+    footer {
+      background-color: #071320;
+      color: #e5edf5;
+      padding: 2.5rem 0 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #e5edf5;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Testimonial and Calculator Styles */
+    .testimonial-card {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .testimonial-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(to bottom, var(--primary), var(--accent));
+    }
+
+    .rating-stars .star {
+      cursor: pointer;
+      font-size: 1.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .rating-stars .star:hover {
+      transform: scale(1.2);
+    }
+
+    .dark-mode .bg-light {
+      background-color: #2d2d2d !important;
+    }
+
+    .dark-mode .card {
+      background-color: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* WhatsApp floating button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+      z-index: 1000;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 16px rgba(37, 211, 102, 0.6);
+    }
+
+    /* Live Chat Widget */
+    .chat-widget {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 300px;
+      height: 400px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      z-index: 1000;
+      display: none;
+      flex-direction: column;
+    }
+
+    .chat-header {
+      background: var(--primary);
+      color: white;
+      padding: 15px;
+      border-radius: 10px 10px 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .chat-messages {
+      flex: 1;
+      padding: 15px;
+      overflow-y: auto;
+      background: #f8f9fa;
+    }
+
+    .chat-input {
+      padding: 15px;
+      border-top: 1px solid #eee;
+      display: flex;
+    }
+
+    .chat-input input {
+      flex: 1;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      padding: 8px 15px;
+      margin-right: 10px;
+    }
+
+    .chat-input button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+
+    .dark-mode .chat-widget {
+      background: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .dark-mode .chat-messages {
+      background: #2d2d2d;
+    }
+
+    .dark-mode .chat-input {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Language Switcher Styles */
+    .language-switcher {
+      z-index: 1000;
+    }
+    .lang-btn.active {
+      background-color: var(--primary);
+      color: white;
+    }
+    .bilingual-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .bilingual-text .english {
+      font-size: 1rem;
+    }
+    .bilingual-text .regional {
+      font-size: 0.85rem;
+      opacity: 0.9;
+    }
+    .dark-mode .bilingual-text .regional {
+      opacity: 0.7;
+    }
+
+    /* Performance optimizations */
+    .lazy {
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .lazy.loaded {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body id="top">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#top">
+        <img src="images/logo-bcse.jpg" alt="Bright Club Solar Energy logo" />
+      </a>
+      
+      <!-- Dark Mode Toggle -->
+      <div class="d-flex align-items-center ms-auto me-3">
+        <button id="darkModeToggle" class="btn btn-sm btn-outline-secondary rounded-circle" style="width: 40px; height: 40px; padding: 0;">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">
+              <span class="nav-en">About</span>
+              <span class="nav-mr">आमच्याबद्दल</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">
+              <span class="nav-en">Projects</span>
+              <span class="nav-mr">प्रोजेक्ट</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#customer-sites">
+              <span class="nav-en">Customer Sites</span>
+              <span class="nav-mr">ग्राहक साईट्स</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">
+              <span class="nav-en">Products</span>
+              <span class="nav-mr">प्रॉडक्ट</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">
+              <span class="nav-en">Pricing</span>
+              <span class="nav-mr">पॅकेज</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              <span class="nav-en">Contact</span>
+              <span class="nav-mr">संपर्क</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-6 reveal from-left">
+          <p class="section-title mb-2">Bright Club Solar Energy</p>
+          <h1 class="mb-2">
+            Bright Your Future With Clean Solar Power
+          </h1>
+          <h5 class="mb-3">
+            स्वच्छ सौर ऊर्जेसह तुमचे भविष्य उज्ज्वल करा
+          </h5>
+          <p class="tagline mb-2">
+            Design, supply, and installation of rooftop solar power systems across Maharashtra using high-efficiency inverters and premium-quality components from all leading brands.
+            We deliver reliable, customized solar solutions for residential, commercial, and agricultural applications with complete technical support.
+          </p>
+          <p class="tagline mb-4">
+            महाराष्ट्रात घर, दुकान व शेतासाठी सर्व नामांकित ब्रँड्सच्या उच्च दर्जाच्या सौर पॅनेल्स व इन्व्हर्टर्ससह रूफटॉप सौर प्रकल्पांची डिझाइन, पुरवठा व बसवणी.
+            योग्य स्ट्रक्चर, दर्जेदार वायरिंग, सुरक्षित अर्थिंग आणि नेटकमीटरिंगसह टर्नकी (पूर्ण) सोल्यूशन उपलब्ध.
+          </p>
+          <div class="d-flex flex-wrap gap-2">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              Book a Free Site Visit / मोफत साइट व्हिजिट बुक करा
+            </a>
+            <a href="#projects" class="btn btn-outline-secondary btn-lg">
+              View Projects / आमचे प्रोजेक्ट
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal from-right delay-1">
+          <img
+            src="images/project-hero.jpg"
+            alt="Rooftop solar panels installed by Bright Club Solar Energy"
+            class="img-fluid hero-image"
+          />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-6 reveal from-left">
+          <h6 class="section-title">About Us / आमच्याबद्दल</h6>
+          <h2 class="section-heading">
+            End‑to‑End Rooftop Solar EPC Contractor<br />
+            संपूर्ण रूफटॉप सौर सेवा – डिझाईन ते कमिशनिंग
+          </h2>
+
+          <p>
+            Powering Your Future with Bright Club Solar Energy.
+          </p>
+          </p>
+            As a leading Solar EPC specialist, we transform homes, businesses, and industries into self sustaining powerhouses. We deliver high performance rooftop systems using premium BIS approved modules and world class grid-tied inverters, ensuring maximum efficiency and lifelong savings.
+          </p>
+          <p>
+            ब्राईट क्लब सोलर एनर्जी सूर्यप्रकाशातून समृद्धीकडे!
+          </p>
+          </p>
+            आम्ही घरे, शेती, दुकाने, शाळा आणि हॉस्पिटल्ससाठी अत्याधुनिक सौर प्रकल्प उभारण्यात अग्रेसर आहोत. BIS-मान्यताप्राप्त पॅनल्स आणि जागतिक दर्जाचे इन्व्हर्टर वापरून, आम्ही देतो हमी... अखंड वीज आणि भरघोस बचतीची!
+          </p>
+
+          <div class="row pt-2">
+            <div class="col-sm-6 mb-3">
+              <div class="d-flex align-items-center">
+                <div class="icon-badge">☀</div>
+                <div>
+                  <h6 class="mb-1">Quality Components / दर्जेदार साहित्य</h6>
+                  <p class="mb-0 small">
+                    Tier‑1 modules, WAAREE inverters, AC/DC protection with DB,
+                    and proper earthing for long system life.<br />
+                    टियर‑१ पॅनेल, Waaree इन्व्हर्टर, AC/DC DB, सर्ज प्रोटेक्शन
+                    आणि योग्य अर्थिंग – त्यामुळे सिस्टीमचे आयुष्य जास्त.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3">
+              <div class="d-flex align-items-center">
+                <div class="icon-badge">⚙</div>
+                <div>
+                  <h6 class="mb-1">
+                    Professional Installation / प्रोफेशनल इन्स्टॉलेशन
+                  </h6>
+                  <p class="mb-0 small">
+                    Neat wiring, structure fabrication, testing & documentation
+                    as per DISCOM and safety standards.<br />
+                    नीट वायरींग, मजबूत स्ट्रक्चर, तपासणी आणि कागदपत्रे –
+                    MSEDCL/महावितरणच्या नियमांप्रमाणे संपूर्ण काम.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Inverter / DB image -->
+        <div class="col-lg-6 reveal from-right delay-1">
+          <img
+            src="images/project-inverter-room.jpg"
+            alt="WAAREE inverter and AC/DC distribution boxes installed on site"
+            class="img-fluid product-image"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h6 class="section-title text-center">Projects / आमचे प्रोजेक्ट</h6>
+      <h2 class="section-heading text-center mb-4">
+        Recent Installations<br />
+        अलीकडील इन्स्टॉलेशन
+      </h2>
+
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4 reveal from-bottom">
+          <div class="card project-card h-100 border-0">
+            <div class="position-relative">
+              <img
+                src="images/project-velapur.jpg"
+                alt="Rooftop solar project in Velapur, Maharashtra"
+              />
+              <span class="badge-location">
+                Velapur, Maharashtra / वेळापूर
+              </span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Residential Rooftop System</h5>
+              <p class="card-text small text-muted mb-1">
+                Grid‑tied rooftop solar plant installed on RCC terrace with
+                south‑facing modules.
+              </p>
+              <p class="card-text small mb-1">
+                आरसीसी छतावर ग्रिड‑टाईड सौर प्रकल्प – जास्तीत जास्त
+                जनरेशनसाठी योग्य टिल्ट व दिशा.
+              </p>
+              <p class="card-text small mb-0">
+                Approx. coordinates: 17.79° N, 75.05° E
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4 reveal from-bottom delay-1">
+          <div class="card project-card h-100 border-0">
+            <div class="position-relative">
+              <img
+                src="images/project-malinagar.jpg"
+                alt="Rooftop solar project in Malinagar, Maharashtra"
+              />
+              <span class="badge-location">
+                Malinagar, Maharashtra / माळीनगर
+              </span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Tin‑Roof Solar Plant</h5>
+              <p class="card-text small text-muted mb-1">
+                Solar PV array mounted on sheet roof with customised structure
+                and WAAREE inverter.
+              </p>
+              <p class="card-text small mb-0">
+                टिन शेडवर खास डिझाईन केलेले स्ट्रक्चर, योग्य वायरींग आणि Waaree
+                इन्व्हर्टरसह पूर्ण प्रकल्प.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4 reveal from-bottom delay-2">
+          <div class="card project-card h-100 border-0">
+            <div class="position-relative">
+              <img
+                src="images/project-inverter-closeup.jpg"
+                alt="WAAREE inverter with AC/DC protection boxes"
+              />
+              <span class="badge-location">
+                Solapur District / सोलापूर विभाग
+              </span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Inverter & Protection Panel</h5>
+              <p class="card-text small text-muted mb-1">
+                WAAREE on‑grid inverter with dedicated AC & DC distribution
+                boxes, energy meter and neatly routed conduits.
+              </p>
+              <p class="card-text small mb-0">
+                Remote monitoring enabled for live performance data.<br />
+                मोबाईल अॅप / वेब पोर्टलवरून लाईव्ह जनरेशन मॉनिटरिंग सुविधा.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER SITES (CAROUSEL) -->
+  <section id="customer-sites">
+    <div class="container">
+      <h6 class="section-title text-center">Customer Sites / ग्राहक साईट्स</h6>
+      <h2 class="section-heading text-center mb-2">
+        Real Rooftops, Real Savings<br />
+        प्रत्यक्ष बसवलेल्या सिस्टीम्स, खरे बिल बचत
+      </h2>
+
+      <p class="text-center text-muted small mb-1">
+        Empowering spaces with clean energy. A step towards a greener environment and lower electricity bills.
+      </p>
+      <p class="text-center text-muted small mb-4">
+        खालील फोटो आमच्या ग्राहकांच्या साईट्सचे आहेत, जिथे सौर ऊर्जेच्या मदतीने घरे व व्यवसाय आत्मनिर्भर झाले असून विजेची मोठी बचत होत आहे.
+      </p>
+
+      <div
+        id="customerSitesCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="3500"
+        data-bs-touch="true"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-1.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 1"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-2.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 2"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-3.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 3"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-4.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 4"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-5.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 5"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-6.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 6"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-7.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 7"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-8.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 8"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-9.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 9"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-10.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 10"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative">
+              <img
+                src="images/customer-site-11.jpg"
+                class="d-block w-100 customer-site-img"
+                alt="Customer rooftop solar site 11"
+              />
+              <span class="customer-slide-caption">
+                Customer Site – Rooftop Solar Installation
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#customerSitesCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#customerSitesCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products">
+    <div class="container">
+      <!-- 1. WAAREE F-SERIES -->
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-5 reveal from-left">
+          <img
+            src="images/waaree-fseries-g2.jpg"
+            alt="WAAREE Single‑Phase F Series (G2) inverter"
+            class="img-fluid product-image"
+          />
+        </div>
+
+        <div class="col-lg-7 reveal from-right delay-1">
+          <h6 class="section-title">Products / प्रॉडक्ट</h6>
+          <h2 class="section-heading">
+            WAAREE Single‑Phase F Series (G2) Inverters<br />
+            Waaree F सिरीज (G2) सिंगल‑फेज इन्व्हर्टर
+          </h2>
+
+          <p>
+            Bright Club Solar Energy uses WAAREE F Series (G2) dual‑MPPT
+            grid‑tied inverters for high efficiency and reliability in
+            residential and small commercial projects.
+          </p>
+          <p>
+            आमच्या बहुतेक सिस्टीममध्ये Waaree F Series (G2) ड्युअल‑MPPT
+            इन्व्हर्टर वापरले जातात – ज्यामध्ये उच्च कार्यक्षमता, मोठा MPPT
+            व्होल्टेज रेंज आणि रिमोट मॉनिटरिंगची सुविधा आहे.
+          </p>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="list-check small mb-3">
+                <li>High performance, low start‑up voltage</li>
+                <li>Wide MPPT voltage range (80–550 V)</li>
+                <li>Max. efficiency up to 97.4%</li>
+                <li>Transformerless, natural convection cooling</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="list-check small mb-3">
+                <li>IP65 – outdoor installation possible</li>
+                <li>In‑built AC & DC protections</li>
+                <li>Remote monitoring via app / web portal</li>
+                <li>Optional Wi‑Fi / GPRS / 4G communication</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="table-responsive mt-3">
+            <table class="table table-sm table-bordered align-middle">
+              <thead class="table-light">
+                <tr>
+                  <th>Model</th>
+                  <th>Rated Output (VA)</th>
+                  <th>Max. Input Power (W)</th>
+                  <th>Max. Efficiency (%)</th>
+                </tr>
+              </thead>
+              <tbody class="small">
+                <tr><td>F3000‑G2</td><td>3000</td><td>4500</td><td>97.4</td></tr>
+                <tr><td>F3600‑G2</td><td>3600</td><td>5400</td><td>97.4</td></tr>
+                <tr><td>F4600‑G2</td><td>4600</td><td>6900</td><td>97.4</td></tr>
+                <tr><td>F5000‑G2</td><td>5000</td><td>7500</td><td>97.4</td></tr>
+                <tr><td>F5300‑G2</td><td>5300</td><td>7950</td><td>97.4</td></tr>
+                <tr><td>F6000‑G2</td><td>6000</td><td>9000</td><td>97.4</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="small text-muted mb-0">
+            Data is based on the WAAREE F Series (G2) datasheet. For complete and
+            latest details, please refer to the official WAAREE brochure.
+          </p>
+        </div>
+      </div>
+
+      <hr class="my-5" />
+
+      <!-- 2. Loom Solar Fusion Inverters + Dealer Certificate -->
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-5 order-lg-2 reveal from-right">
+          <img
+            src="images/fusion-inverter-datasheet.jpg"
+            alt="Loom Solar Fusion inverter datasheet"
+            class="img-fluid product-image"
+          />
+        </div>
+
+        <div class="col-lg-7 order-lg-1 reveal from-left delay-1">
+          <h2 class="section-heading">
+            Loom Solar Fusion On‑Grid Inverters<br />
+            Loom Solar Fusion ग्रिड‑टाय इन्व्हर्टर
+          </h2>
+          <p>
+            For higher‑capacity residential and commercial plants we also use
+            Loom Solar Fusion series inverters (3 kW – 100 kW) with advanced
+            grid‑tie technology.
+          </p>
+          <p>
+            3 kW ते 100 kW क्षमतेचे Loom Solar Fusion इन्व्हर्टर – लहान घरापासून
+            कमर्शियल प्लांटपर्यंत वापरता येणारे, उच्च कार्यक्षमतेचे ग्रिड‑टाय
+            इन्व्हर्टर.
+          </p>
+
+          <ul class="list-check small mb-3">
+            <li>Capacity range: 3 kW – 100 kW (single‑phase & three‑phase)</li>
+            <li>Suitable for residential, commercial and small industrial plants</li>
+            <li>Multiple MPPT inputs for flexible string design</li>
+            <li>Protection for over‑voltage, over‑current and grid faults</li>
+          </ul>
+
+          <h6 class="mb-2">Authorized Dealer Certificate / डीलर प्रमाणपत्र</h6>
+          <p class="small text-muted mb-2">
+            Bright Club Solar Energy is an authorized dealer of Loom Solar for
+            Solapur district (Maharashtra).
+          </p>
+          <a
+            href="images/dealer-certificate.jpg"
+            target="_blank"
+            class="d-inline-block"
+          >
+            <img
+              src="images/dealer-certificate.jpg"
+              alt="Loom Solar dealer certificate"
+              class="img-fluid rounded"
+              style="max-width: 260px;"
+            />
+          </a>
+        </div>
+      </div>
+
+      <hr class="my-5" />
+
+      <!-- 3. Growatt Inverters -->
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-5 reveal from-left">
+          <img
+            src="images/growatt-inverters.jpg"
+            alt="Growatt on-grid inverters"
+            class="img-fluid product-image"
+          />
+        </div>
+
+        <div class="col-lg-7 reveal from-right delay-1">
+          <h2 class="section-heading">
+            Growatt On‑Grid Inverters<br />
+            Growatt ग्रिड‑टाय इन्व्हर्टर
+          </h2>
+          <p>
+            Growatt is a globally popular brand for string inverters. We use
+            Growatt inverters in selected projects where specific capacity or
+            configuration is required.
+          </p>
+          <p>
+            Growatt ब्रँडचे स्ट्रिंग इन्व्हर्टर जगभरात वापरले जातात. काही
+            प्रोजेक्टमध्ये क्षमता / डिझाईननुसार Growatt इन्व्हर्टर वापरले जातात.
+          </p>
+
+          <ul class="list-check small mb-0">
+            <li>Wide power range for single‑phase and three‑phase systems</li>
+            <li>High European efficiency and stable grid performance</li>
+            <li>Wi‑Fi / GPRS monitoring through Shine app & portal</li>
+            <li>Multiple MPPT inputs for complex rooftops</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="my-5" />
+
+      <!-- 4. RenewSys & Waaree Solar Modules -->
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-6 reveal from-left">
+          <h2 class="section-heading">
+            Solar PV Modules – RenewSys &amp; Waaree<br />
+            सोलर पॅनेल – RenewSys व Waaree
+          </h2>
+          <p>
+            For solar modules we mainly use Tier‑1 manufacturers like RenewSys
+            and Waaree, offering high‑efficiency mono PERC panels with long‑term
+            performance warranty.
+          </p>
+          <p>
+            पॅनेलसाठी आम्ही RenewSys आणि Waaree सारख्या दर्जेदार कंपन्यांचे
+            मॉड्यूल्स वापरतो – उच्च कार्यक्षमतेचे mono PERC पॅनेल व 25 वर्षापर्यंत
+            परफॉर्मन्स वॉरंटी.
+          </p>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <h6 class="mb-1">RenewSys Modules</h6>
+              <ul class="list-check small mb-3">
+                <li>Mono / mono PERC high‑efficiency cells</li>
+                <li>Strong mechanical strength for Indian climate</li>
+                <li>Certified as per IEC standards</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <h6 class="mb-1">Waaree Modules</h6>
+              <ul class="list-check small mb-3">
+                <li>Tier‑1 Indian manufacturer</li>
+                <li>25‑year performance warranty</li>
+                <li>Compatible with all inverters we supply</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal from-right delay-1">
+          <div class="row g-3">
+            <div class="col-6">
+              <a
+                href="images/renewsys-panel.jpg"
+                target="_blank"
+                class="d-block"
+              >
+                <img
+                  src="images/renewsys-panel.jpg"
+                  alt="RenewSys solar panel"
+                  class="img-fluid rounded product-image"
+                />
+              </a>
+            </div>
+            <div class="col-6">
+              <a
+                href="images/waaree-panel.jpg"
+                target="_blank"
+                class="d-block"
+              >
+                <img
+                  src="images/waaree-panel.jpg"
+                  alt="Waaree solar panel"
+                  class="img-fluid rounded product-image"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING (3.3 / 4 / 5 kW) -->
+  <section id="pricing">
+    <div class="container">
+      <h6 class="section-title text-center">Pricing / पॅकेज</h6>
+      <h2 class="section-heading text-center mb-4">
+        Waaree Rooftop Solar Packages (With Subsidy)<br />
+        Waaree रूफटॉप सोलर पॅकेज – सबसिडीसह अंदाजे दर
+      </h2>
+
+      <div class="row g-4">
+        <!-- 3.3 kW PACKAGE -->
+        <div class="col-md-4 reveal from-bottom">
+          <div class="pricing-card p-4 h-100">
+            <h3 class="mb-1 text-center">Waaree System 3.3 kW</h3>
+            <p class="text-center text-muted small mb-2">
+              Approx. 3.3 kW DC rooftop system
+            </p>
+
+            <p class="price text-center mb-0">₹ 1,12,000*</p>
+            <p class="text-center text-muted small mb-3">
+              Net Amount (after subsidy) / सबसिडीनंतर देय रक्कम
+            </p>
+
+            <h6 class="mb-1">Includes / यामध्ये साधारण हे समाविष्ट असते:</h6>
+            <ul class="list-check small mb-3">
+              <li>Waaree Mono PERC 535W पॅनेल × 6</li>
+              <li>Waaree 3.3 kW इन्व्हर्टर – 10 वर्ष वॉरंटी</li>
+              <li>स्ट्रक्चर (GI)</li>
+              <li>DC / AC वायरिंग</li>
+              <li>Earthing + Lightning Arrestor</li>
+              <li>DCDB + ACDB + SPD</li>
+              <li>Installation + Net Metering Work</li>
+            </ul>
+
+            <h6 class="mb-1">Generation (3 kW System) / उत्पादन:</h6>
+            <ul class="small mb-3">
+              <li>08–13 युनिट/दिवस</li>
+              <li>300–360 युनिट/महिना</li>
+              <li>सालाना 3,000–3,600 युनिट</li>
+              <li>दरमहा अंदाजे ₹3,000–₹4,000 वीजबिल बचत</li>
+            </ul>
+
+            <table class="table table-sm table-bordered small mb-1">
+              <tbody>
+                <tr>
+                  <th>सिस्टीम किंमत</th>
+                  <td>₹ 1,90,000</td>
+                </tr>
+                <tr>
+                  <th>Subsidy (-)</th>
+                  <td>₹ 78,000</td>
+                </tr>
+                <tr>
+                  <th>Net Amount (Customer Payable)</th>
+                  <td><strong>₹ 1,12,000</strong></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="small text-muted mb-0">
+              *Government policy नुसार सबसिडी व दर बदलू शकतात. Final quotation
+              साइट व्हिजिट व लोड तपासणी नंतर दिली जाईल.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 kW PACKAGE -->
+        <div class="col-md-4 reveal from-bottom delay-1">
+          <div class="pricing-card p-4 h-100">
+            <h3 class="mb-1 text-center">Waaree System 4 kW</h3>
+            <p class="text-center text-muted small mb-2">
+              Approx. 4 kW DC rooftop system
+            </p>
+
+            <p class="price text-center mb-0">₹ 1,22,000*</p>
+            <p class="text-center text-muted small mb-3">
+              Net Amount (after subsidy) / सबसिडीनंतर देय रक्कम
+            </p>
+
+            <h6 class="mb-1">Includes / यामध्ये साधारण हे समाविष्ट असते:</h6>
+            <ul class="list-check small mb-3">
+              <li>Waaree Mono PERC 535W पॅनेल × 8</li>
+              <li>Waaree 5 kW इन्व्हर्टर – 10 वर्ष वॉरंटी</li>
+              <li>स्ट्रक्चर (GI)</li>
+              <li>DC / AC वायरिंग</li>
+              <li>Earthing + Lightning Arrestor</li>
+              <li>DCDB + ACDB + SPD</li>
+              <li>Installation + Net Metering Work</li>
+            </ul>
+
+            <h6 class="mb-1">Generation (4 kW System) / उत्पादन:</h6>
+            <ul class="small mb-3">
+              <li>14–16 युनिट/दिवस</li>
+              <li>380–480 युनिट/महिना</li>
+              <li>सालाना 4,560–5,760 युनिट</li>
+              <li>दरमहा अंदाजे ₹3,000–₹4,000 वीजबिल बचत</li>
+            </ul>
+
+            <table class="table table-sm table-bordered small mb-1">
+              <tbody>
+                <tr>
+                  <th>सिस्टीम किंमत</th>
+                  <td>₹ 2,00,000</td>
+                </tr>
+                <tr>
+                  <th>Subsidy (-)</th>
+                  <td>₹ 78,000</td>
+                </tr>
+                <tr>
+                  <th>Net Amount (Customer Payable)</th>
+                  <td><strong>₹ 1,22,000</strong></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="small text-muted mb-0">
+              *Government policy नुसार सबसिडी व दर बदलू शकतात. Final quotation
+              साइट व्हिजिट व लोड तपासणी नंतर दिली जाईल.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5 kW PACKAGE -->
+        <div class="col-md-4 reveal from-bottom delay-2">
+          <div class="pricing-card p-4 h-100">
+            <h3 class="mb-1 text-center">Waaree System 5 kW</h3>
+            <p class="text-center text-muted small mb-2">
+              Approx. 5 kW DC rooftop system
+            </p>
+
+            <p class="price text-center mb-0">₹ 1,97,000*</p>
+            <p class="text-center text-muted small mb-3">
+              Net Amount (after subsidy) / सबसिडीनंतर देय रक्कम
+            </p>
+
+            <h6 class="mb-1">Includes / यामध्ये साधारण हे समाविष्ट असते:</h6>
+            <ul class="list-check small mb-3">
+              <li>Waaree Mono PERC 535W पॅनेल × 9 – 25 वर्ष वॉरंटी</li>
+              <li>Waaree 5 kW इन्व्हर्टर – 8 वर्ष वॉरंटी</li>
+              <li>स्ट्रक्चर (GI)</li>
+              <li>DC / AC वायरिंग</li>
+              <li>Earthing + Lightning Arrestor</li>
+              <li>DCDB + ACDB + SPD</li>
+              <li>Installation + Net Metering Work</li>
+            </ul>
+
+            <h6 class="mb-1">Generation (5 kW System) / उत्पादन:</h6>
+            <ul class="small mb-3">
+              <li>16–18 युनिट/दिवस</li>
+              <li>480–540 युनिट/महिना</li>
+              <li>सालाना 5,760–6,480 युनिट</li>
+              <li>दरमहा अंदाजे ₹3,000–₹4,000 वीजबिल बचत</li>
+            </ul>
+
+            <table class="table table-sm table-bordered small mb-1">
+              <tbody>
+                <tr>
+                  <th>सिस्टीम किंमत</th>
+                  <td>₹ 2,75,000</td>
+                </tr>
+                <tr>
+                  <th>Subsidy (-)</th>
+                  <td>₹ 78,000</td>
+                </tr>
+                <tr>
+                  <th>Net Amount (Customer Payable)</th>
+                  <td><strong>₹ 1,97,000</strong></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="small text-muted mb-0">
+              *Government policy नुसार सबसिडी व दर बदलू शकतात. Final quotation
+              साइट व्हिजिट व लोड तपासणी नंतर दिली जाईल.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-5">
+    <div class="container">
+      <h6 class="section-title text-center">Testimonials / आमचे ग्राहक</h6>
+      <h2 class="section-heading text-center mb-4">
+        What Our Customers Say<br>
+        आमच्या ग्राहकांचे मत
+      </h2>
+
+      <div class="row g-4">
+        <!-- Testimonial 1 -->
+        <div class="col-md-4 reveal from-bottom">
+          <div class="testimonial-card p-4 h-100">
+            <div class="d-flex mb-3">
+              <div class="me-3">
+                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="fas fa-user text-white"></i>
+                </div>
+              </div>
+              <div>
+                <h5 class="mb-0">Ramesh Patil</h5>
+                <p class="text-muted small mb-1">Velapur, Maharashtra</p>
+                <div class="text-warning">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="mb-0">
+              "Bright Club Solar Energy installed a 5kW system on my rooftop. The installation was professional and the team was very knowledgeable. My electricity bills have reduced by 70%!"
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-md-4 reveal from-bottom delay-1">
+          <div class="testimonial-card p-4 h-100">
+            <div class="d-flex mb-3">
+              <div class="me-3">
+                <div class="rounded-circle bg-success d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="fas fa-user text-white"></i>
+                </div>
+              </div>
+              <div>
+                <h5 class="mb-0">Sunita Deshmukh</h5>
+                <p class="text-muted small mb-1">Malinagar, Maharashtra</p>
+                <div class="text-warning">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p class="mb-0">
+              "Excellent service from start to finish. The team explained everything clearly and the system is working perfectly. Highly recommend Bright Club for solar installations."
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-md-4 reveal from-bottom delay-2">
+          <div class="testimonial-card p-4 h-100">
+            <div class="d-flex mb-3">
+              <div class="me-3">
+                <div class="rounded-circle bg-info d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="fas fa-user text-white"></i>
+                </div>
+              </div>
+              <div>
+                <h5 class="mb-0">Vijay Kulkarni</h5>
+                <p class="text-muted small mb-1">Solapur, Maharashtra</p>
+                <div class="text-warning">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="mb-0">
+              "The 4kW system installed by Bright Club has been a game-changer for our business. Clean energy and significant cost savings. Professional team and quality work."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#testimonialModal">
+          <i class="fas fa-plus me-2"></i>Leave a Review
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Modal -->
+  <div class="modal fade" id="testimonialModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Leave Your Review</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form id="testimonialForm">
+            <div class="mb-3">
+              <label class="form-label">Your Name</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Location</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Rating</label>
+              <div class="rating-stars">
+                <i class="fas fa-star star" data-rating="1"></i>
+                <i class="fas fa-star star" data-rating="2"></i>
+                <i class="fas fa-star star" data-rating="3"></i>
+                <i class="fas fa-star star" data-rating="4"></i>
+                <i class="fas fa-star star" data-rating="5"></i>
+              </div>
+              <input type="hidden" id="rating-input" name="rating" value="0">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Your Review</label>
+              <textarea class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Review</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOLAR CALCULATOR -->
+  <section id="calculator" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 reveal from-left">
+          <h6 class="section-title">Savings Calculator / कॅलक्युलेटर</h6>
+          <h2 class="section-heading mb-4">
+            Calculate Your Solar Savings<br>
+            तुमची सोलर बचत कॅलक्युलेट करा
+          </h2>
+          <p>
+            Estimate how much you can save with solar energy. Enter your monthly electricity bill and see potential savings.
+          </p>
+        </div>
+        <div class="col-lg-6 reveal from-right delay-1">
+          <div class="card p-4 shadow-sm">
+            <h5 class="mb-4">Energy Savings Calculator</h5>
+            <div class="mb-3">
+              <label class="form-label">Monthly Electricity Bill (₹)</label>
+              <input type="number" id="billAmount" class="form-control" placeholder="Enter your monthly bill">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">System Size</label>
+              <select id="systemSize" class="form-control">
+                <option value="3.3">3.3 kW System</option>
+                <option value="4" selected>4 kW System</option>
+                <option value="5">5 kW System</option>
+              </select>
+            </div>
+            <button id="calculateBtn" class="btn btn-primary w-100 mb-3">Calculate Savings</button>
+            
+            <div id="resultSection" class="d-none">
+              <div class="alert alert-success">
+                <h6 class="mb-2">Estimated Results:</h6>
+                <p class="mb-1"><strong>System Cost:</strong> ₹<span id="systemCost">0</span></p>
+                <p class="mb-1"><strong>Monthly Generation:</strong> <span id="monthlyGen">0</span> units</p>
+                <p class="mb-1"><strong>Monthly Savings:</strong> ₹<span id="monthlySavings">0</span></p>
+                <p class="mb-1"><strong>Yearly Savings:</strong> ₹<span id="yearlySavings">0</span></p>
+                <p class="mb-0"><strong>Payback Period:</strong> <span id="paybackPeriod">0</span> years</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6 reveal from-left">
+          <div class="contact-card p-4 h-100">
+            <h6 class="section-title">Contact / संपर्क</h6>
+            <h2 class="section-heading mb-3">
+              Get a Site Visit or Quotation<br />
+              साइट व्हिजिट / कोटेशन साठी संपर्क करा
+            </h2>
+            <p>
+              Share your address, connected load (kW) and recent electricity bill.
+              We will design a suitable solar system and share a detailed proposal.
+            </p>
+            <p>
+              आपला पत्ता, कनेक्टेड लोड (kW) आणि शेवटचे वीजबिल पाठवा.
+              आम्ही योग्य सिस्टीम डिझाईन करून तपशीलवार कोटेशन देऊ.
+            </p>
+
+            <!-- Web3Forms integrated form -->
+            <form id="contactForm" method="POST">
+              <!-- REQUIRED: Web3Forms access key -->
+              <input
+                type="hidden"
+                name="access_key"
+                value="78060f0d-c222-467f-bce6-f1bf52a220cc"
+              />
+              <!-- optional but useful -->
+              <input
+                type="hidden"
+                name="from_name"
+                value="Bright Club Solar Energy Website"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="New enquiry from Bright Club Solar Energy website"
+              />
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Name / नाव</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="phone" class="form-label"
+                  >Mobile Number / मोबाईल नंबर</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="location" class="form-label"
+                  >Location / Address / पत्ता</label
+                >
+                <textarea
+                  class="form-control"
+                  id="location"
+                  name="location"
+                  rows="2"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">
+                  Message / Requirement / मेसेज
+                </label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="3"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Submit Enquiry / चौकशी पाठवा
+              </button>
+
+              <div id="form-status" class="mt-3 small"></div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal from-right delay-1">
+          <div class="ps-lg-4">
+            <h6 class="section-title">Office Details / ऑफिस पत्ता</h6>
+            <h2 class="section-heading mb-3">Bright Club Solar Energy</h2>
+
+            <!-- Head Office -->
+            <div class="mb-3">
+              <h6 class="mb-1">Head Office / मुख्य कार्यालय (Akluj Road)</h6>
+              <p class="mb-1">
+                Shop No. 4, CTS No. 889,<br />
+                Akluj Road, Solapur, Maharashtra – 413101, India
+              </p>
+            </div>
+
+            <!-- Branch / Warehouse -->
+            <div class="mb-3">
+              <h6 class="mb-1">Branch / Warehouse / गोदाम</h6>
+              <p class="mb-1">
+                Bright Club Solar Energy – Warehouse / Godown,<br />
+                Solapur, Maharashtra, India
+              </p>
+              <p class="mb-1 small">
+                <a
+                  href="https://www.google.com/maps/place/Bright+club+solar+energy/@17.7197722,75.1833254,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc417c4385ae303:0xb3f38e6bd718d888!8m2!3d17.7197722!4d75.1833254!16s%2Fg%2F11xn62pd88!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View branch location on Google Maps / नकाशावर लोकेशन पहा 👈
+                </a>
+              </p>
+
+              <!-- Embedded Google Map (branch location) -->
+              <div class="ratio ratio-16x9 mt-2 rounded shadow-sm">
+                <iframe
+                  src="https://www.google.com/maps?q=17.7197722,75.1833254&z=17&output=embed"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+
+            <p class="mb-1"><strong>Phone / मोबाईल:</strong> +91 73856 40214</p>
+            <p class="mb-1">
+              <strong>Email:</strong> brightclubsolarenergy@gmail.com
+            </p>
+
+            <h6 class="mb-2 mt-3">Working Area / कामाचे क्षेत्र</h6>
+            <p class="small">
+              Solapur, Malshiras, Akluj, Velapur, Malinagar आणि आसपासची गावे /
+              Taluka level projects across Solapur district and nearby locations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-md-6">
+          <p class="mb-1">
+            &copy; <span id="year"></span> Bright Club Solar Energy. All rights
+            reserved.
+          </p>
+          <p class="mb-0 small">
+            Rooftop solar EPC contractor – design, supply, installation &amp;
+            service.
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#top">Back to top / वर जा</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/917385640214" target="_blank" class="whatsapp-float">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Live Chat Widget -->
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-header">
+      <h6 class="mb-0">Chat with us</h6>
+      <button class="btn-close btn-close-white" id="closeChat"></button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="mb-3">
+        <div class="bg-primary text-white p-2 rounded" style="display: inline-block; max-width: 80%;">
+          Hello! How can I help you with solar energy solutions?
+        </div>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="chatInput" placeholder="Type your message...">
+      <button id="sendChat"><i class="fas fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <!-- Language Switcher -->
+  <div class="language-switcher position-fixed top-0 end-0 p-3 z-index-1000">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-sm btn-outline-secondary lang-btn" data-lang="en">EN</button>
+      <button type="button" class="btn btn-sm btn-outline-secondary lang-btn" data-lang="mr">MR</button>
+      <button type="button" class="btn btn-sm btn-outline-secondary lang-btn" data-lang="hi">HI</button>
+    </div>
+  </div>
+
+  <!-- Chat Toggle Button -->
+  <button id="chatToggle" class="btn btn-primary rounded-circle" 
+          style="position: fixed; bottom: 100px; right: 20px; width: 50px; height: 50px; z-index: 999;">
+    <i class="fas fa-comments"></i>
+  </button>
+
+  <script>
+    // Dark Mode Toggle
+    document.addEventListener("DOMContentLoaded", function () {
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      const body = document.body;
+      const moonIcon = darkModeToggle.querySelector('i');
+
+      // Check for saved theme or default to light
+      const currentTheme = localStorage.getItem('theme') || 'light';
+      if (currentTheme === 'dark') {
+        body.classList.add('dark-mode');
+        moonIcon.classList.remove('fa-moon');
+        moonIcon.classList.add('fa-sun');
+      }
+
+      darkModeToggle.addEventListener('click', function() {
+        body.classList.toggle('dark-mode');
+        
+        if (body.classList.contains('dark-mode')) {
+          moonIcon.classList.remove('fa-moon');
+          moonIcon.classList.add('fa-sun');
+          localStorage.setItem('theme', 'dark');
+        } else {
+          moonIcon.classList.remove('fa-sun');
+          moonIcon.classList.add('fa-moon');
+          localStorage.setItem('theme', 'light');
+        }
+      });
+      // Set current year in footer
+      document.getElementById("year").textContent =
+        new Date().getFullYear();
+
+      /* Enhanced Reveal animations with stagger effect */
+      const reveals = document.querySelectorAll(".reveal");
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+              setTimeout(() => {
+                entry.target.classList.add("active");
+                entry.target.style.animationDelay = `${index * 0.1}s`;
+              }, index * 100);
+            } else {
+              entry.target.classList.remove("active");
+            }
+          });
+        },
+        { threshold: 0.25 }
+      );
+      reveals.forEach((el) => revealObserver.observe(el));
+
+      /* Floating elements animation */
+      const floatingElements = document.querySelectorAll('.floating-element');
+      floatingElements.forEach((el, index) => {
+        el.style.animationDelay = `${index * 0.5}s`;
+      });
+
+      /* Navbar active section highlight + click pulse */
+      const sections = document.querySelectorAll("section[id]");
+      const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+      const sectionObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const id = entry.target.id;
+              navLinks.forEach((link) => {
+                const href = link.getAttribute("href");
+                if (href === "#" + id) {
+                  link.classList.add("active");
+                } else {
+                  link.classList.remove("active");
+                }
+              });
+            }
+          });
+        },
+        {
+          threshold: 0.3,
+          rootMargin: "-45% 0px -45% 0px", // near center of viewport
+        }
+      );
+
+      sections.forEach((sec) => sectionObserver.observe(sec));
+
+      // initial state: About highlighted
+      const firstNav = document.querySelector('.navbar-nav .nav-link[href="#about"]');
+      if (firstNav) firstNav.classList.add("active");
+
+      // Click pulse + instant highlight
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.forEach((l) => l.classList.remove("active"));
+          link.classList.add("active", "nav-pulse");
+          setTimeout(() => link.classList.remove("nav-pulse"), 200);
+        });
+      });
+
+      /* Web3Forms AJAX submit */
+      const form = document.getElementById("contactForm");
+      const status = document.getElementById("form-status");
+
+      form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+        status.textContent = "Sending...";
+        status.classList.remove("text-success", "text-danger");
+
+        const formData = new FormData(form);
+
+        try {
+          const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData,
+          });
+
+          const data = await res.json();
+
+          if (data.success) {
+            status.textContent =
+              "Thank you! Your enquiry has been sent. / धन्यवाद, आपली चौकशी पाठवली गेली आहे.";
+            status.classList.add("text-success");
+            form.reset();
+          } else {
+            throw new Error(data.message || "Form submission failed");
+          }
+        } catch (err) {
+          status.textContent =
+            "Error sending form. Please try again or contact on WhatsApp / Mobile.";
+          status.classList.add("text-danger");
+        }
+      });
+
+      /* Solar Calculator */
+      const calculateBtn = document.getElementById("calculateBtn");
+      const billAmount = document.getElementById("billAmount");
+      const systemSize = document.getElementById("systemSize");
+      const resultSection = document.getElementById("resultSection");
+
+      // System pricing data
+      const systemData = {
+        "3.3": { cost: 112000, generation: 360 },
+        "4": { cost: 122000, generation: 480 },
+        "5": { cost: 197000, generation: 540 }
+      };
+
+      calculateBtn.addEventListener("click", function() {
+        const bill = parseFloat(billAmount.value);
+        const size = systemSize.value;
+        
+        if (isNaN(bill) || bill <= 0) {
+          alert("Please enter a valid bill amount");
+          return;
+        }
+
+        const data = systemData[size];
+        const unitRate = bill / 300; // Assuming 300 units average
+        const monthlySavings = data.generation * unitRate;
+        const yearlySavings = monthlySavings * 12;
+        const paybackPeriod = data.cost / yearlySavings;
+
+        document.getElementById("systemCost").textContent = data.cost.toLocaleString();
+        document.getElementById("monthlyGen").textContent = data.generation;
+        document.getElementById("monthlySavings").textContent = monthlySavings.toFixed(0);
+        document.getElementById("yearlySavings").textContent = yearlySavings.toFixed(0);
+        document.getElementById("paybackPeriod").textContent = paybackPeriod.toFixed(1);
+
+        resultSection.classList.remove("d-none");
+        resultSection.scrollIntoView({ behavior: "smooth" });
+      });
+
+      /* Testimonial Rating */
+      const stars = document.querySelectorAll(".star");
+      const ratingInput = document.getElementById("rating-input");
+
+      stars.forEach(star => {
+        star.addEventListener("click", function() {
+          const rating = this.getAttribute("data-rating");
+          ratingInput.value = rating;
+          
+          stars.forEach((s, index) => {
+            if (index < rating) {
+              s.classList.add("text-warning");
+              s.classList.remove("text-muted");
+            } else {
+              s.classList.remove("text-warning");
+              s.classList.add("text-muted");
+            }
+          });
+        });
+      });
+
+      /* Testimonial Form Submit */
+      const testimonialForm = document.getElementById("testimonialForm");
+      testimonialForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+        alert("Thank you for your review! We appreciate your feedback.");
+        const modal = bootstrap.Modal.getInstance(document.getElementById("testimonialModal"));
+        modal.hide();
+        testimonialForm.reset();
+        // Reset stars
+        stars.forEach(s => {
+          s.classList.remove("text-warning");
+          s.classList.add("text-muted");
+        });
+      });
+
+      /* Live Chat Widget */
+      const chatToggle = document.getElementById("chatToggle");
+      const chatWidget = document.getElementById("chatWidget");
+      const closeChat = document.getElementById("closeChat");
+      const chatInput = document.getElementById("chatInput");
+      const sendChat = document.getElementById("sendChat");
+      const chatMessages = document.getElementById("chatMessages");
+
+      chatToggle.addEventListener("click", function() {
+        chatWidget.style.display = "flex";
+        chatToggle.style.display = "none";
+        chatInput.focus();
+      });
+
+      closeChat.addEventListener("click", function() {
+        chatWidget.style.display = "none";
+        chatToggle.style.display = "block";
+      });
+
+      function addMessage(text, isUser = false) {
+        const messageDiv = document.createElement("div");
+        messageDiv.className = "mb-3";
+        
+        const bubble = document.createElement("div");
+        bubble.className = isUser ? "bg-success text-white p-2 rounded" : "bg-primary text-white p-2 rounded";
+        bubble.style.display = "inline-block";
+        bubble.style.maxWidth = "80%";
+        bubble.textContent = text;
+        
+        if (!isUser) {
+          bubble.style.marginLeft = "auto";
+          bubble.style.display = "block";
+          bubble.style.textAlign = "right";
+        }
+        
+        messageDiv.appendChild(bubble);
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+
+      sendChat.addEventListener("click", function() {
+        const message = chatInput.value.trim();
+        if (message) {
+          addMessage(message, true);
+          chatInput.value = "";
+          
+          // Simulate auto-reply
+          setTimeout(() => {
+            const responses = [
+              "Thank you for your message! We'll get back to you soon.",
+              "For solar installations, we offer 3.3kW, 4kW, and 5kW systems.",
+              "You can book a free site visit by calling us at 73856 40214.",
+              "Our systems come with 25-year warranty on panels and 10-year warranty on inverters."
+            ];
+            const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+            addMessage(randomResponse);
+          }, 1000);
+        }
+      });
+
+      chatInput.addEventListener("keypress", function(e) {
+        if (e.key === "Enter") {
+          sendChat.click();
+        }
+      });
+
+      /* Language Switcher */
+      const langButtons = document.querySelectorAll('.lang-btn');
+      let currentLang = localStorage.getItem('preferredLanguage') || 'en';
+      
+      // Set active button
+      langButtons.forEach(btn => {
+        if (btn.dataset.lang === currentLang) {
+          btn.classList.add('active');
+        }
+        
+        btn.addEventListener('click', function() {
+          currentLang = this.dataset.lang;
+          localStorage.setItem('preferredLanguage', currentLang);
+          
+          // Update active button
+          langButtons.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          
+          // Apply language changes
+          applyLanguage(currentLang);
+        });
+      });
+      
+      // Apply language function
+      function applyLanguage(lang) {
+        // Update navigation links
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+          const href = link.getAttribute('href');
+          if (href === '#about') {
+            if (lang === 'mr') {
+              link.querySelector('.nav-en').textContent = 'आमच्याबद्दल';
+              link.querySelector('.nav-mr').textContent = 'About';
+            } else if (lang === 'hi') {
+              link.querySelector('.nav-en').textContent = 'हमारे बारे में';
+              link.querySelector('.nav-mr').textContent = 'About';
+            } else {
+              link.querySelector('.nav-en').textContent = 'About';
+              link.querySelector('.nav-mr').textContent = 'आमच्याबद्दल';
+            }
+          } else if (href === '#projects') {
+            if (lang === 'mr') {
+              link.querySelector('.nav-en').textContent = 'प्रोजेक्ट';
+              link.querySelector('.nav-mr').textContent = 'Projects';
+            } else if (lang === 'hi') {
+              link.querySelector('.nav-en').textContent = 'परियोजनाएं';
+              link.querySelector('.nav-mr').textContent = 'Projects';
+            } else {
+              link.querySelector('.nav-en').textContent = 'Projects';
+              link.querySelector('.nav-mr').textContent = 'प्रोजेक्ट';
+            }
+          } else if (href === '#customer-sites') {
+            if (lang === 'mr') {
+              link.querySelector('.nav-en').textContent = 'ग्राहक साईट्स';
+              link.querySelector('.nav-mr').textContent = 'Customer Sites';
+            } else if (lang === 'hi') {
+              link.querySelector('.nav-en').textContent = 'ग्राहक साइट्स';
+              link.querySelector('.nav-mr').textContent = 'Customer Sites';
+            } else {
+              link.querySelector('.nav-en').textContent = 'Customer Sites';
+              link.querySelector('.nav-mr').textContent = 'ग्राहक साईट्स';
+            }
+          } else if (href === '#products') {
+            if (lang === 'mr') {
+              link.querySelector('.nav-en').textContent = 'प्रॉडक्ट';
+              link.querySelector('.nav-mr').textContent = 'Products';
+            } else if (lang === 'hi') {
+              link.querySelector('.nav-en').textContent = 'उत्पाद';
+              link.querySelector('.nav-mr').textContent = 'Products';
+            } else {
+              link.querySelector('.nav-en').textContent = 'Products';
+              link.querySelector('.nav-mr').textContent = 'प्रॉडक्ट';
+            }
+          } else if (href === '#pricing') {
+            if (lang === 'mr') {
+              link.querySelector('.nav-en').textContent = 'पॅकेज';
+              link.querySelector('.nav-mr').textContent = 'Pricing';
+            } else if (lang === 'hi') {
+              link.querySelector('.nav-en').textContent = 'मूल्य निर्धारण';
+              link.querySelector('.nav-mr').textContent = 'Pricing';
+            } else {
+              link.querySelector('.nav-en').textContent = 'Pricing';
+              link.querySelector('.nav-mr').textContent = 'पॅकेज';
+            }
+          } else if (href === '#contact') {
+            if (lang === 'mr') {
+              link.querySelector('.nav-en').textContent = 'संपर्क';
+              link.querySelector('.nav-mr').textContent = 'Contact';
+            } else if (lang === 'hi') {
+              link.querySelector('.nav-en').textContent = 'संपर्क करें';
+              link.querySelector('.nav-mr').textContent = 'Contact';
+            } else {
+              link.querySelector('.nav-en').textContent = 'Contact';
+              link.querySelector('.nav-mr').textContent = 'संपर्क';
+            }
+          }
+        });
+        
+        // Update section titles
+        const sectionTitles = document.querySelectorAll('.section-title');
+        sectionTitles.forEach(title => {
+          const text = title.textContent;
+          if (text.includes('About Us') || text.includes('आमच्याबद्दल')) {
+            if (lang === 'mr') {
+              title.textContent = 'आमच्याबद्दल / About Us';
+            } else if (lang === 'hi') {
+              title.textContent = 'हमारे बारे में / About Us';
+            } else {
+              title.textContent = 'About Us / आमच्याबद्दल';
+            }
+          } else if (text.includes('Projects') || text.includes('प्रोजेक्ट')) {
+            if (lang === 'mr') {
+              title.textContent = 'प्रोजेक्ट / Projects';
+            } else if (lang === 'hi') {
+              title.textContent = 'परियोजनाएं / Projects';
+            } else {
+              title.textContent = 'Projects / प्रोजेक्ट';
+            }
+          } else if (text.includes('Customer Sites') || text.includes('ग्राहक साईट्स')) {
+            if (lang === 'mr') {
+              title.textContent = 'ग्राहक साईट्स / Customer Sites';
+            } else if (lang === 'hi') {
+              title.textContent = 'ग्राहक साइट्स / Customer Sites';
+            } else {
+              title.textContent = 'Customer Sites / ग्राहक साईट्स';
+            }
+          } else if (text.includes('Products') || text.includes('प्रॉडक्ट')) {
+            if (lang === 'mr') {
+              title.textContent = 'प्रॉडक्ट / Products';
+            } else if (lang === 'hi') {
+              title.textContent = 'उत्पाद / Products';
+            } else {
+              title.textContent = 'Products / प्रॉडक्ट';
+            }
+          } else if (text.includes('Pricing') || text.includes('पॅकेज')) {
+            if (lang === 'mr') {
+              title.textContent = 'पॅकेज / Pricing';
+            } else if (lang === 'hi') {
+              title.textContent = 'मूल्य निर्धारण / Pricing';
+            } else {
+              title.textContent = 'Pricing / पॅकेज';
+            }
+          } else if (text.includes('Contact') || text.includes('संपर्क')) {
+            if (lang === 'mr') {
+              title.textContent = 'संपर्क / Contact';
+            } else if (lang === 'hi') {
+              title.textContent = 'संपर्क करें / Contact';
+            } else {
+              title.textContent = 'Contact / संपर्क';
+            }
+          }
+        });
+        
+        // Update hero section
+        const heroTitle = document.querySelector('header.hero h1');
+        if (heroTitle) {
+          if (lang === 'mr') {
+            heroTitle.textContent = 'स्वच्छ सौर ऊर्जेसह तुमचे भविष्य उज्ज्वल करा';
+          } else if (lang === 'hi') {
+            heroTitle.textContent = 'स्वच्छ सौर ऊर्जा के साथ अपना भविष्य उज्ज्वल बनाएं';
+          } else {
+            heroTitle.textContent = 'Bright Your Future With Clean Solar Power';
+          }
+        }
+        
+        const heroSubtitle = document.querySelector('header.hero h5');
+        if (heroSubtitle) {
+          if (lang === 'mr') {
+            heroSubtitle.textContent = 'Bright Your Future With Clean Solar Power';
+          } else if (lang === 'hi') {
+            heroSubtitle.textContent = 'Bright Your Future With Clean Solar Power';
+          } else {
+            heroSubtitle.textContent = 'स्वच्छ सौर ऊर्जेसह तुमचे भविष्य उज्ज्वल करा';
+          }
+        }
+        
+        // Update other elements as needed
+        const ctaButtons = document.querySelectorAll('a.btn');
+        ctaButtons.forEach(btn => {
+          const text = btn.textContent;
+          if (text.includes('Free Site Visit') || text.includes('मोफत साइट व्हिजिट')) {
+            if (lang === 'mr') {
+              btn.innerHTML = 'मोफत साइट व्हिजिट बुक करा / Book a Free Site Visit';
+            } else if (lang === 'hi') {
+              btn.innerHTML = 'निःशुल्क साइट विजिट बुक करें / Book a Free Site Visit';
+            } else {
+              btn.innerHTML = 'Book a Free Site Visit / मोफत साइट व्हिजिट बुक करा';
+            }
+          } else if (text.includes('View Projects') || text.includes('आमचे प्रोजेक्ट')) {
+            if (lang === 'mr') {
+              btn.innerHTML = 'आमचे प्रोजेक्ट / View Projects';
+            } else if (lang === 'hi') {
+              btn.innerHTML = 'परियोजनाएं देखें / View Projects';
+            } else {
+              btn.innerHTML = 'View Projects / आमचे प्रोजेक्ट';
+            }
+          }
+        });
+      }
+      
+      // Apply initial language
+      applyLanguage(currentLang);
+    });
+  </script>
+</body>
+</html>
